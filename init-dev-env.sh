@@ -10,6 +10,7 @@ PACKAGES="
  wget
  byobu
  subversion
+ ia32-libs
 "
 
 sudo aptitude install -y $PACKAGES
@@ -18,5 +19,11 @@ git config --global user.email "andersrb@gmail.com"
 
 HOME=/home/brian
 DEVDIR=$HOME/Dev
+
 mkdir -p $DEVDIR/tools
+mkdir -p $DEVDIR/downloads
+
 wget -O $DEVDIR/tools/sbt-launch-0.7.4.jar http://simple-build-tool.googlecode.com/files/sbt-launch-0.7.4.jar
+
+wget -O $DEVDIR/downloads/android-sdk_r06-linux_86.tgz http://dl.google.com/android/android-sdk_r06-linux_86.tgz
+tar xzf $DEVDIR/downloads/android-sdk_r06-linux_86.tgz -C $DEVDIR
