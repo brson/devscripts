@@ -17,6 +17,7 @@ PACKAGES="
 sudo aptitude install -y $PACKAGES
 git config --global user.name "Brian Anderson"
 git config --global user.email "andersrb@gmail.com"
+git config --global color.ui auto
 
 HOME=/home/brian
 DEVDIR=$HOME/Dev
