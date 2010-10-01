@@ -1,20 +1,7 @@
 #!/bin/sh
 
-PACKAGES="
- git-core
- emacs23-nox
- bcrypt
- git-svn
- openjdk-6-jdk
- ant
- wget
- byobu
- subversion
- ia32-libs
- unzip
-"
+/home/brian/Dev/devscripts/install-packages.sh
 
-sudo aptitude install -y $PACKAGES
 git config --global user.name "Brian Anderson"
 git config --global user.email "andersrb@gmail.com"
 git config --global color.ui auto

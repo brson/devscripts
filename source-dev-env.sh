@@ -9,3 +9,4 @@ source $DEVSCRIPTS/source-eclipse-env.sh
 source $DEVSCRIPTS/source-idea-env.sh
 source $DEVSCRIPTS/source-scala-env.sh
 source $DEVSCRIPTS/source-rust-env.sh
+source $DEVSCRIPTS/source-chrome-env.sh
